@@ -13,22 +13,18 @@ pip install -r requirements.txt
 ```
 
 ### Run the Data Analysis
-To execute the analysis script:
-```sh
-python data_analysis_main.py
-```
-
-Alternatively, you can open and run Jupyter Notebooks:
+To execute the analysis script you can open and run Jupyter Notebooks:
 ```sh
 jupyter notebook
 ```
-Then navigate to the `notebooks/` folder and run the step-by-step analysis.
+Then open the data_analysis_main.ipynb file and run the step-by-step analysis.
+You can also open and run the notebook in VS Code.
 
 ## Dataset Description
 The dataset contains demographic, behavioral, and physical condition data to estimate obesity levels. The target variable is `NObeyesdad` (obesity level). Key features include:
 
 - **Demographics**: `Age`, `Gender`, `Height`, `Weight`, `family_history_with_overweight`
-- **Dietary Habits**: `FAVC` (high-calorie food consumption), `FCVC` (vegetable consumption), `CAEC` (snacks), `CH2O` (water intake), `SCC` (do you monitor kcals), `NCP` (meals per day)
+- **Dietary Habits**: `FAVC` (high-calorie food consumption), `FCVC` (vegetable consumption), `CAEC` (snacks), `CH2O` (water intake), `SCC` (kcals monitoring), `NCP` (meals per day)
 - **Lifestyle**: `FAF` (physical activity frequency), `TUE` (time spent on electronic devices)
 - **Other**: `SMOKE` (smoking habit), `CALC` (alcohol consumption), `MTRANS` (mode of transport)
 
