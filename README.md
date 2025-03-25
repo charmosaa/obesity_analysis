@@ -7,7 +7,7 @@ This project analyzes the **Estimation of Obesity Levels Based on Eating Habits 
 First, create a virtual environment and install required packages:
 ```sh
 python -m venv venv
-source venv/Scripts/activate # activate venv (here in bash) 
+source venv/Scripts/activate # activate venv (here for bash) 
 
 pip install -r requirements.txt
 ```
@@ -18,7 +18,7 @@ To execute the analysis script you can open and run Jupyter Notebooks:
 jupyter notebook
 ```
 Then open the data_analysis_main.ipynb file and run the step-by-step analysis.
-You can also open and run the notebook in VS Code.
+You can also just open and run the notebook in VS Code.
 
 ## Dataset Description
 The dataset contains demographic, behavioral, and physical condition data to estimate obesity levels. The target variable is `NObeyesdad` (obesity level). Key features include:
