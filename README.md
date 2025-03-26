@@ -20,6 +20,13 @@ jupyter notebook
 Then open the data_analysis_main.ipynb file and run the step-by-step analysis.
 You can also just open and run the notebook in VS Code.
 
+If you decided to use jupyter notebook you might need to add you venv with installed requirements to the kernel
+```sh
+python -m ipykernel install --user --name=your_venv_name --display-name "Python (your_venv_name)"
+```
+your_venv_name would be just venv in this case. 
+After that when you run the notebook in the browser just select created Kernel
+
 ## Dataset Description
 The dataset contains demographic, behavioral, and physical condition data to estimate obesity levels. The target variable is `NObeyesdad` (obesity level). Key features include:
 
